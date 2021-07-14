@@ -186,10 +186,6 @@ input, select, textarea {
 
 /* Type */
 
-	.thumbHeader{
-		font-family: "Dela Gothic One", cursive;
-	}
-
 	body, input, select, textarea {
 		color: #a0a0a1;
 		font-family: "Source Sans Pro", Helvetica, sans-serif;

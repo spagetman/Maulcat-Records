@@ -1,5 +1,5 @@
 
-
+console.log("main.js initialized");
 
 var main = (function($) { var _ = {
 
@@ -451,17 +451,15 @@ var main = (function($) { var _ = {
 								s.loaded = true;
 
 						}
-
 					// Add to slides array.
 						_.slides.push(s);
-
 					// Set thumbnail's index.
 						$thumbnail.data('index', _.slides.length - 1);
-
+            
 				});
-
+      
 	},
-
+  
 	/**
 	 * Initialize stuff.
 	 */
@@ -741,3 +739,5 @@ var main = (function($) { var _ = {
 	},
 
 }; return _; })(jQuery); main.init();
+
+console.log("main.js done");
